@@ -57,7 +57,7 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
     TabsModule.forRoot(),
     ChartsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDzSW2-sw9wxPqilLhOMkTNlghP8XaSVZM'
+      apiKey: 'maps api key'
     })
   ],
   declarations: [
