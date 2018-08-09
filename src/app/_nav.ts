@@ -216,16 +216,21 @@ export const navItems = [
     ]
   },
   {
-    name: 'Download CoreUI',
-    url: 'http://coreui.io/angular/',
-    icon: 'icon-cloud-download',
-    class: 'mt-auto',
-    variant: 'success'
+    name: 'Google Maps',
+    url: '/googlemaps',
+    icon: 'icon-cursor',
+    children: [
+      {
+        name: 'Maps',
+        url: '/googlemaps/maps',
+        icon: 'icon-cursor'
+      }
+    ]
   },
-  {
-    name: 'Try CoreUI PRO',
-    url: 'http://coreui.io/pro/angular/',
-    icon: 'icon-layers',
-    variant: 'danger'
-  }
+  // {
+  //   name: 'Try CoreUI PRO',
+  //   url: 'http://coreui.io/pro/angular/',
+  //   icon: 'icon-layers',
+  //   variant: 'danger'
+  // }
 ];
